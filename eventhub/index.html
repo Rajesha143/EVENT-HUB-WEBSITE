@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>EventHub - Discover Amazing Events</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Header & Navigation -->
+<header>
+  <div class="nav-container">
+    <div class="logo">Event<span>Hub</span></div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul id="navMenu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Banner with countdown -->
+<section class="banner">
+  <h1>Welcome to EventHub</h1>
+  <p>Your gateway to the most exciting events of the year</p>
+  <h2 id="eventTitle" style="margin-top:1rem;color:#3b82f6;">Loading...</h2>
+  <p id="eventDate" style="margin:.5rem 0 1rem;"></p>
+  <div class="countdown" id="countdown">
+    <div class="countdown-item"><span class="num" id="days">0</span><span class="label">Days</span></div>
+    <div class="countdown-item"><span class="num" id="hours">0</span><span class="label">Hours</span></div>
+    <div class="countdown-item"><span class="num" id="minutes">0</span><span class="label">Minutes</span></div>
+    <div class="countdown-item"><span class="num" id="seconds">0</span><span class="label">Seconds</span></div>
+  </div>
+  <a href="events.html" class="btn">Explore Events</a>
+  <a href="register.html" class="btn btn-outline">Register Now</a>
+</section>
+
+<!-- Highlights -->
+<section class="container">
+  <h2 class="section-title">Why EventHub?</h2>
+  <p class="section-subtitle">Everything you need in one place</p>
+  <div class="events-grid">
+    <div class="event-card"><div class="event-card-body"><h3 class="event-name">🎓 College Fests</h3><p class="event-desc">Join the most happening cultural and academic festivals.</p></div></div>
+    <div class="event-card"><div class="event-card-body"><h3 class="event-name">💻 Tech Events</h3><p class="event-desc">Hackathons, workshops, and tech conferences.</p></div></div>
+    <div class="event-card"><div class="event-card-body"><h3 class="event-name">🚀 Workshops</h3><p class="event-desc">Hands-on learning with industry experts.</p></div></div>
+  </div>
+</section>
+
+<footer>&copy; 2025 EventHub. All rights reserved. | Made with ❤️ in India</footer>
+
+<script src="js/main.js"></script>
+<script src="js/countdown.js"></script>
+</body>
+</html>

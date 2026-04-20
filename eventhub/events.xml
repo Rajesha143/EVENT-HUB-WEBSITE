@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+  <event>
+    <name>College Fest</name>
+    <date>10 November 2025</date>
+    <description>Annual college cultural festival with music, dance, drama and food stalls.</description>
+    <price>199</price>
+  </event>
+  <event>
+    <name>Tech Fest</name>
+    <date>15 December 2025</date>
+    <description>Hackathons, coding contests, robotics & AI workshops. Prizes worth ₹2,00,000.</description>
+    <price>499</price>
+  </event>
+  <event>
+    <name>Workshop</name>
+    <date>5 January 2026</date>
+    <description>Hands-on workshop on Web Development with HTML, CSS, JS and PHP.</description>
+    <price>299</price>
+  </event>
+</events>

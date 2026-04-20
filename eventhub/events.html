@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Events - EventHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="nav-container">
+    <div class="logo">Event<span>Hub</span></div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav>
+      <ul id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="container">
+  <h2 class="section-title">Upcoming Events</h2>
+  <p class="section-subtitle">Browse and register for events loaded dynamically from XML</p>
+  <div class="events-grid" id="eventsGrid">
+    <p>Loading events...</p>
+  </div>
+</section>
+
+<footer>&copy; 2025 EventHub. All rights reserved.</footer>
+<script src="js/main.js"></script>
+<script src="js/events.js"></script>
+</body>
+</html>
